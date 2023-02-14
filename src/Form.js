@@ -42,7 +42,7 @@ const Form = (props) => {
         console.log(city);
         await addWeather(city);
         console.log(res);
-        props = res.value;
+        // props = res.value;
         props.setRes(res); //!!!
         
         }

@@ -7,7 +7,7 @@ const Data = () =>{
     
     return(
         <div>
-            <Form res={res} setRes={setRes}/>
+            <Form setRes={setRes}/>
             <Weather res={res}/>
         </div>
     )
